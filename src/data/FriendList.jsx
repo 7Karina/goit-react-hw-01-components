@@ -1,9 +1,9 @@
 import React from 'react';
-import FriendListItem from './FriendListItem';
-import css from './FriendList.module.css';
+import FriendListItem from '../FriendListItem/FriendListItem';
+import { List } from '../styled/FriendList.styled';
 
 const FriendList = ({ friends }) => (
-  <ul className={css.list}>
+  <List>
     {friends.map(({ avatar, name, isOnline, id }) => (
       <FriendListItem
         key={id}
@@ -12,7 +12,6 @@ const FriendList = ({ friends }) => (
         isOnline={isOnline}
       />
     ))}
-  </ul>
+  </List>
 );
-
 export default FriendList;
