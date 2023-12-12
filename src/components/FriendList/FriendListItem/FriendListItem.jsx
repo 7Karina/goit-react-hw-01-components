@@ -1,5 +1,5 @@
 import React from 'react';
-import { Item, Status, Avatar, Name } from '../styled/FriendList.styled';
+import { Item, Status, Avatar, Name } from '../FriendList.styled';
 
 const FriendListItem = ({ avatar, name, isOnline }) => (
   <Item>

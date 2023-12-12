@@ -1,5 +1,5 @@
 import React from 'react';
-import { TransactionHistoryTable } from '../styled/TransactionHistiry.styled';
+import { TransactionHistoryTable } from './TransactionHistiry.styled';
 
 const TransactionHistory = ({ items }) => {
   return (

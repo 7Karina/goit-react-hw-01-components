@@ -6,8 +6,8 @@ import {
   StatItem,
   Label,
   Percentage,
-} from '../styled/Statistics.styled';
-import { getRandomHexColor } from '../helpers/getRandomHexColor';
+} from './Statistics.styled';
+import { getRandomHexColor } from './helpers/getRandomHexColor';
 
 const Statistics = ({ stats }) => {
   return (

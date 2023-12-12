@@ -1,6 +1,6 @@
 import React from 'react';
-import FriendListItem from '../FriendListItem/FriendListItem';
-import { List } from '../styled/FriendList.styled';
+import FriendListItem from './FriendListItem/FriendListItem';
+import { List } from './FriendList.styled';
 
 const FriendList = ({ friends }) => (
   <List>
